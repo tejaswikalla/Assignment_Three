@@ -1,5 +1,5 @@
 # The Internal State of an LLM Knows When It's Lying
-The code for the supervised analysis is primarily based on Azaria and Mitchell's paper, *"The Internal State of an LLM Knows When It's Lying"*. The datasets used for this work are either directly sourced from their research or derived from it.
+The code for the supervised analysis is primarily based on Azaria and Mitchell's paper, [`The Internal State of an LLM Knows When It's Lying.'](https://arxiv.org/abs/2304.13734). The datasets used for this work are either directly sourced from their research or derived from it.
 
 To generate embeddings, you can use `GenerateEmbeddings.py` or `LLaMa_generate_embeddings.py` on the selected datasets. These scripts extract embeddings for the last token at specified layers of the chosen model. The embeddings are saved as CSV files, and the parameters can be configured using either a `config.json` file or command-line arguments. Ensure that labeled datasets are used for training purposes.
 
